@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "dependencies": {
+    ".NETFramework,Version=v4.7.2": {
+      "NuGet.Frameworks": {
+        "type": "Direct",
+        "requested": "[6.0.0-preview.3, )",
+        "resolved": "6.0.0-preview.3",
+        "contentHash": "vF29USOU+Yyap/M3e+TMfTpntcPJhJFuU1Z6OGOcTOmK5YC98g1RYI87OS6+QiJBfz90WV5CCtLQ56jI5FLh3Q=="
+      },
+      "Newtonsoft.Json": {
+        "type": "Transitive",
+        "resolved": "13.0.1",
+        "contentHash": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A=="
+      },
+      "leaflibrary": {
+        "type": "Project",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        }
+      },
+      "nativeproject": {
+        "type": "Project",
+        "dependencies": {
+          "LeafLibrary": "1.0.0"
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win": {},
+    ".NETFramework,Version=v4.7.2/win-x64": {},
+    ".NETFramework,Version=v4.7.2/win-x86": {}
+  }
+}
